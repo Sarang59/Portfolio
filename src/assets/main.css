@@ -1,0 +1,117 @@
+@import './base.css';
+
+/* #app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+} */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: black;
+}
+
+.sub-section {
+  padding: 10px 0;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.section-title {
+  color: #3D52A0;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.section-title::after {
+  width: 60px;
+  height: 4px;
+  background: #7091E6;
+  position: absolute;
+  left: 0;
+}
+
+.card-custom {
+  background: #8697C4;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.bg-light-custom {
+  background: #EDE8F5;
+}
+
+.bg-mid {
+  background: #ADBBDA;
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(10px);
+}
+
+/* Hover lift effect */
+.hover-card {
+  transition: all 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Skill badge */
+.skill-badge {
+  padding: 12px;
+  border-radius: 10px;
+  background: #8697C4;
+  font-weight: 500;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+/* @media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */

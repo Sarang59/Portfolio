@@ -1,5 +1,5 @@
 import profileImage from '../assets/Profile_Image.jpeg'
-import myResume from '/Full Time jobs/Sarang_Chandwadkar_Resume.pdf'
+import myResume from '../assets/Sarang_Chandwadkar_Resume.pdf'
 
 export const personalInfo = {
     name: "Sarang Chandwadkar",

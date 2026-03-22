@@ -1,4 +1,4 @@
-import profileImage from '/Github Projects/My Portfolio/Portfolio/src/assets/Profile_Image.jpeg'
+import profileImage from '../assets/Profile_Image.jpeg'
 import myResume from '/Full Time jobs/Sarang_Chandwadkar_Resume.pdf'
 
 export const personalInfo = {

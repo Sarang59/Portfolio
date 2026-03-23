@@ -35,6 +35,8 @@ export const skills = {
 
     "Frameworks": [".NET"],
 
+    "Cloud and DevOps": ["Basic AWS", "Basic Kubernetes"],
+
     "AI & ML": ["GenAI"],
 
     "Web & Database": [

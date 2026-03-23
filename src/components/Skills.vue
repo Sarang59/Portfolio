@@ -48,7 +48,9 @@
             "GitHub": "bi-github",
             "Jira": "bi-clipboard2-check",
             "Tortoise SVN": "bi-floppy",
-            "MS Office": "bi-microsoft"
+            "MS Office": "bi-microsoft",
+            "Basic AWS": "bi-amazon",
+            "Basic Kubernetes": "bi-cloud"
         }
         return icons[skill] || "bi-stars"
     }
@@ -58,6 +60,9 @@
     <section id="skills" class="section glass" style="background:#ADBBDA">
         <div class="container">
             <h2 class="section-title text-center mb-2">Skills</h2>
+            <p class="text-center small text-muted mb-5">
+                Note: The percentage indicators reflect my practical proficiency and working experience with each technology.
+            </p>
             <div class="row">
                 <div v-for="(categorySkills, category) in skills" :key="category" class="mb-3">
                     <h4 class="fw-bold mb-4 ">{{ category }}</h4>

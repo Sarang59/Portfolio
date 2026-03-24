@@ -1,30 +1,30 @@
 <script setup>
     import { skills } from '../data/portfolioData'
 
-    const skillLevels = {
-        "Vue.js": 93,
-        "React.js": 85,
-        "Java": 92,
-        "Python": 90,
-        "Appian": 83,
-        ".NET": 88,
-        "C#": 80,
-        "Kotlin": 88,
-        "PL/SQL": 79,
-        "Oracle SQL": 75,
-        "GenAI": 75,
-        "C++": 78,
-        "R": 76,
-        "HTML": 80,
-        "CSS": 80,
-        "Bootstrap": 85,
-        "Agile": 77,
-        "Kanban": 87,
-        "Github": 82,
-        "Jira": 84,
-        "Tortoise SVN": 81,
-        "MS Office": 80
-    }
+    // const skillLevels = {
+    //     "Vue.js": 93,
+    //     "React.js": 85,
+    //     "Java": 92,
+    //     "Python": 90,
+    //     "Appian": 83,
+    //     ".NET": 88,
+    //     "C#": 80,
+    //     "Kotlin": 88,
+    //     "PL/SQL": 79,
+    //     "Oracle SQL": 75,
+    //     "GenAI": 75,
+    //     "C++": 78,
+    //     "R": 76,
+    //     "HTML": 80,
+    //     "CSS": 80,
+    //     "Bootstrap": 85,
+    //     "Agile": 77,
+    //     "Kanban": 87,
+    //     "Github": 82,
+    //     "Jira": 84,
+    //     "Tortoise SVN": 81,
+    //     "MS Office": 80
+    // }
 
     const getIcon = (skill) => {
         const icons = {
@@ -60,9 +60,6 @@
     <section id="skills" class="section glass" style="background:#ADBBDA">
         <div class="container">
             <h2 class="section-title text-center mb-2">Skills</h2>
-            <p class="text-center small text-muted mb-5">
-                Note: The percentage indicators reflect my practical proficiency and working experience with each technology.
-            </p>
             <div class="row">
                 <div v-for="(categorySkills, category) in skills" :key="category" class="mb-3">
                     <h4 class="fw-bold mb-4 ">{{ category }}</h4>
@@ -75,17 +72,17 @@
                         >
                             <div class="skill-card glass hover-card text-center p-3">
 
-                                <div class="d-flex justify-content-between">
+                                <!-- <div class="d-flex justify-content-between">
                                     <strong>{{ skill }}</strong>
                                     <span>{{ skillLevels[skill] || 75 }}%</span>
-                                </div>
+                                </div> -->
 
-                                <div class="progress mt-2">
+                                <!-- <div class="progress mt-2">
                                     <div
                                         class="progress-bar"
                                         :style="{ width: (skillLevels[skill] || 75) + '%' }"
                                     ></div>
-                                </div>
+                                </div> -->
 
                                 <i :class="`bi ${getIcon(skill)} fs-2 mb-2`"></i>
 

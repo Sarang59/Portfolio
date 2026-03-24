@@ -16,12 +16,11 @@
 <template>
     <ParticleBackground />
     <Navbar />
-
     <HeroSection />
     <About />
-    <Skills />
-    <Projects />
     <Experience />
+    <Projects />
+    <Skills />
     <Education />
     <Certifications />
     <Achievements />

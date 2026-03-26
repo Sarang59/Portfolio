@@ -72,18 +72,6 @@
                         >
                             <div class="skill-card glass hover-card text-center p-3">
 
-                                <!-- <div class="d-flex justify-content-between">
-                                    <strong>{{ skill }}</strong>
-                                    <span>{{ skillLevels[skill] || 75 }}%</span>
-                                </div> -->
-
-                                <!-- <div class="progress mt-2">
-                                    <div
-                                        class="progress-bar"
-                                        :style="{ width: (skillLevels[skill] || 75) + '%' }"
-                                    ></div>
-                                </div> -->
-
                                 <i :class="`bi ${getIcon(skill)} fs-2 mb-2`"></i>
 
                                 <p class="mb-0 fw-semibold">{{ skill }}</p>
